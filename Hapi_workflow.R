@@ -29,6 +29,9 @@ setwd('~/Documents/Research/Git')
 options(stringsAsFactors=FALSE)
 
 
+### Install 'HMM' package ahead
+install.packages('HHM')
+
 ### installation of Hapi locally
 install.packages('Hapi_0.99.0.tar.gz', repos = NULL, type='source')
 library(Hapi)
