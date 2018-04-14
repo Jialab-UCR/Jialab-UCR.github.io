@@ -119,7 +119,10 @@ Department of Plant and Botany Sciences, Univeristy of California, Riverside</h3
 <div id="hapi-package-installation" class="section level1">
 <h1><span class="header-section-number">2</span> <code>Hapi</code> package installation</h1>
 <p>Before accepted in <a href="https://www.bioconductor.org/">Bioconductor</a>, <code>Hapi</code> can be downloaded and installed locally. The download link is <a href="https://github.com/Jialab-UCR/Jialab-UCR.github.io/blob/master/Hapi_0.99.0.tar.gz">here</a>.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">install.packages</span>(<span class="st">'Hapi_0.99.0.tar.gz'</span>, <span class="dt">repos =</span> <span class="ot">NULL</span>, <span class="dt">type=</span><span class="st">'source'</span>)</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">### install 'HMM' package ahead
+<span class="kw">install.packages</span>(<span class="st">'HMM'</span>)
+
+<span class="kw">install.packages</span>(<span class="st">'Hapi_0.99.0.tar.gz'</span>, <span class="dt">repos =</span> <span class="ot">NULL</span>, <span class="dt">type=</span><span class="st">'source'</span>)</code></pre></div>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(Hapi)</code></pre></div>
 <hr />
 </div>
