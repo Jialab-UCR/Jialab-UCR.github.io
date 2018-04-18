@@ -78,7 +78,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <h1 class="title toc-ignore entry-title">Hapi: an R/Bioconductor package for chromosome-length haplotype inference using genotypic data of single gamete cells</h1>
 <h3 class="author">Ruidong Li and Zhenyu Jia<br />
 Department of Plant and Botany Sciences, Univeristy of California, Riverside</h3>
-<h3 class="date">Last update: 13 April, 2018</h3>
+<h3 class="date">Last update: 18 April, 2018</h3>
 </div><!-- /.header-title-wrap -->
 </header>
 
@@ -321,7 +321,7 @@ filter &lt;-<span class="st"> </span><span class="kw">c</span>()
 </div>
 <div id="high-resolution-haplotype-assembly" class="section level3">
 <h3><span class="header-section-number">3.2.3</span> High-resolution haplotype assembly</h3>
-<p>Each gamete chromosome is compared to the draft haplotypes to deduce gamete-specific haplotypes, with the non-framework markers being phased. Consensus high-resolution haplotypes are eventually determined with these gamete-specific haplotypes by the <code>hapiAssembl()</code> function.</p>
+<p>Each gamete chromosome is compared to the draft haplotypes to deduce gamete-specific haplotypes, with the non-framework markers being phased. Consensus high-resolution haplotypes are eventually determined with these gamete-specific haplotypes by the <code>hapiAssemble()</code> function.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">consensusHap &lt;-<span class="st"> </span><span class="kw">hapiAssemble</span>(<span class="dt">draftHap =</span> finalDraft, <span class="dt">gmt =</span> gmtDa)</code></pre></div>
 <pre><code>## Good consistence between draft haplotype andgmt1: 1</code></pre>
 <pre><code>## Good consistence between draft haplotype andgmt2: 1</code></pre>
@@ -520,7 +520,7 @@ cvOutput</code></pre></div>
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-## [1] HMM_1.0     Hapi_0.99.0
+## [1] HMM_1.0     Hapi_0.99.1
 ## 
 ## loaded via a namespace (and not attached):
 ##  [1] Rcpp_0.12.15     knitr_1.18       magrittr_1.5     munsell_0.4.3   
